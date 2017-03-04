@@ -125,6 +125,6 @@ def convertInfixToPrefix(infixExpression):
 
 
 if __name__=='__main__':
-   #print(getPostfixExpression("(A+B)*C-(D-E)*(F+G)"))
-   #print(postfixEvaluation("AB+C*DE-FG+*-"))
+    print(getPostfixExpression("(A+B)*C-(D-E)*(F+G)"))
+   print(postfixEvaluation("AB+C*DE-FG+*-"))
     print(convertInfixToPrefix("(A+B)*C-(D-E)*(F+G)"))
